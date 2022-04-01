@@ -1,0 +1,25 @@
+using System;
+using System.Linq;
+using System.Numerics;
+using System.Text;
+using System.Collections.Generic;
+using System.Collections;
+
+
+namespace AssociativeArrays
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            BigInteger first = BigInteger.Parse(Console.ReadLine());
+            long second = long.Parse(Console.ReadLine());
+
+
+            Console.WriteLine(first*second);
+            
+        }
+    }
+}
